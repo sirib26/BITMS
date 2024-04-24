@@ -1,0 +1,25 @@
+apple=[10,20,30,50]
+print(apple)
+apple[-1]=300
+print(apple)
+print(apple[-2])
+#apple=[10,20,30,40,50]
+apple[1:4]=(-10,-20,-30)
+print(apple)
+banana=['z','siri',1,2,3]
+print(banana)
+banana[1]='santosh'
+print(banana)
+banana[1:4]=('sss',4,5,6)
+print(banana)
+print(banana[1:4])
+print(banana[1:8])
+print(banana[:])
+print(apple[:])
+print(banana[-3:-1])
+print(banana[-1:-3])  #(n-1)concept n-1-1 = n-2
+print(banana[1:])
+print(banana[0:])
+print(banana[:-1])
+print(banana[0:4:3])
+print(banana[0:7:3])
